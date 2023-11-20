@@ -19,7 +19,7 @@ function getWinner(
   } else if (player2distance < player1distance) {
     return "Nessuno ha azzeccato il numero casuale, ma il giocatore 2 si è avvicinato di più!";
   } else {
-    return "Nessuno ha azzeccato il numero casuale, entrambi i giocatori sono alla stessa distanza!";
+    return "Entrambi i giocatori sono alla stessa distanza!";
   }
 }
 
